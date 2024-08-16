@@ -1,0 +1,30 @@
+.leaderboard {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.leaderboard h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.leaderboard ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.leaderboard li {
+    font-size: 1rem;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.leaderboard li:last-child {
+    border-bottom: none;
+}
